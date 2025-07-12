@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+
+header {
+    margin: 20px 0 25px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-color: dimgray;
+    color: white;
+    display: inline;
+    padding: 5px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+th, td {
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+}
+
+th {
+    font-size: 22px;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.2);
+    color: black;
+    text-decoration: underline;
+}
+
+.tr0 {
+    background-color: lightgrey;
+}
+
+.tr1, .tr2, .tr3, .tr4, .tr5,
+.tr6, .tr7, .tr8, .tr9, .tr10,
+.tr11 {
+    background-color: white;
+}
