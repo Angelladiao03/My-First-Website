@@ -39,7 +39,7 @@ th {
 a {
     color: black;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
     transition: transform 0.3s ease;
     display: inline-block;
 }
@@ -58,4 +58,11 @@ a:hover {
 .tr6, .tr7, .tr8, .tr9, .tr10,
 .tr11 {
     background-color: white;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: lightgray;
+    font-size: 10px;
 }
